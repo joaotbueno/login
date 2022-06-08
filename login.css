@@ -1,0 +1,105 @@
+/* Criando uma página de login com HTML CSS e JavaScript */
+
+body{
+    background-color: darkblue;
+}
+
+
+.main{
+    font-family:'ubuntu';
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main .menu{
+    text-align: center;
+}
+
+ img{
+    width: 250px;
+    height: 250px;
+}
+
+
+.login-section{
+    margin: 20px 20px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+    border-radius: 8px;
+    width: 500px;
+    height: 450px;
+   
+
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'ubuntu';
+    font-size: 15px;
+    width: 200px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+h1{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+a{
+    color: white;
+}
+
+
+.button, .link{
+    color: black;
+    font-family: 'ubuntu';
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.button:hover, .button-password:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+
+.button-password{
+    font-family: 'ubuntu';
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightseagreen;
+}
